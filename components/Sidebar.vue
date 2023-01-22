@@ -26,11 +26,9 @@ const store = useUserInfoStore();
         value="mydownloads"
         nuxt></VListItem>
       <VListItem
-        to="/auth/logout"
         prepend-icon="mdi-logout"
         title="Logout"
-        value="logout"
-        next></VListItem>
+        value="logout"></VListItem>
     </VList>
   </VNavigationDrawer>
 </template>
