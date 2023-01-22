@@ -10,8 +10,6 @@ useLazyAsyncData('user-image', () => store.retrieveUserImage());
 
 <template>
   <div>
-    <Toast />
-    <Toast position="bottom-right" group="br" />
     <NuxtLayout v-show="ready">
       <NuxtLoadingIndicator />
       <NuxtPage />
