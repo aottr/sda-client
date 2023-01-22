@@ -1,7 +1,4 @@
-<script setup lang="ts">
-const config = useRuntimeConfig();
-localStorage.setItem('token', `Token ${config.public.accessToken}`);
-</script>
+<script setup lang="ts"></script>
 <template>
   <v-row align="center" justify="center" style="height: 100vh" dense>
     <v-col
